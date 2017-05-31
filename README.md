@@ -1,5 +1,7 @@
 # Poloniex Node.js Library
 
+[![npm version](https://badge.fury.io/js/nl-poloniex.svg)](https://badge.fury.io/js/nl-poloniex)
+
 ## About
 
 This is my Node.js Library for Poloniex
