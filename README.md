@@ -4,10 +4,6 @@
 
 This is my Node.js Library for Poloniex
 
-## Project status
-
-Currently only public functionality works
-
 ## Installing
 
 ```bash
@@ -49,4 +45,10 @@ poloniex.public({endpoint: "return24hVolume"}, (cb) => console.log(cb));
 
 ```javascript
 poloniex.public({endpoint: "returnTicker"}, (cb) => console.log(cb));
+```
+
+### Get Balances
+
+```javascript
+poloniex.private({command: "returnBalances", 'key': '', 'secret': ''}, (cb) => console.log(cb));
 ```
