@@ -21,6 +21,7 @@
   "homepage": "https://github.com/nolim1t/nl-poloniex#readme",
   "dependencies": {
     "fuckingundefinedemptynull": "^1.0.0",
+    "jest": "^20.0.4",
     "obj-to-querystring": "^1.0.0",
     "request": "^2.81.0"
   }

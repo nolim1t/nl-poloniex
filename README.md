@@ -8,6 +8,12 @@ This is my Node.js Library for Poloniex
 
 Currently only public functionality works
 
+## Installing
+
+```bash
+npm i nl-poloniex --save
+```
+
 ## Contributing
 
 All contributions are welcome and appreciated. Open Source is a meritocracy who doesn't care who you are.
