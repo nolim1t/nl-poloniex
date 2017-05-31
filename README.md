@@ -54,3 +54,15 @@ poloniex.public({endpoint: "returnTicker"}, (cb) => console.log(cb));
 ```javascript
 poloniex.private({command: "returnBalances", 'key': '', 'secret': ''}, (cb) => console.log(cb));
 ```
+
+### Return all balances (including margin accounts)
+
+```javascript
+poloniex.private({command: "returnAvailableAccountBalances", 'key': '', 'secret': ''}, (cb) => console.log(cb));
+```
+
+### Return Margin Summary
+
+```javascript
+poloniex.private({command: "returnMarginAccountSummary", 'key': '', 'secret': ''}, (cb) => console.log(cb));
+```
