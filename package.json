@@ -1,0 +1,27 @@
+{
+  "name": "nl-poloniex",
+  "version": "1.0.0",
+  "description": "Poloniex node.js library",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nolim1t/nl-poloniex.git"
+  },
+  "keywords": [
+    "trading"
+  ],
+  "author": "Barry <21.co/barryt>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nolim1t/nl-poloniex/issues"
+  },
+  "homepage": "https://github.com/nolim1t/nl-poloniex#readme",
+  "dependencies": {
+    "fuckingundefinedemptynull": "^1.0.0",
+    "obj-to-querystring": "^1.0.0",
+    "request": "^2.81.0"
+  }
+}
